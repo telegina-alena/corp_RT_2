@@ -1,8 +1,10 @@
 ﻿using System;
-class Program
+
+class Program1
 {
     static void Main()
     {
+        // задание №2
         Console.Write("Введите шестизначный номер билета: ");
         int ticket = int.Parse(Console.ReadLine()); //считываем ввод и переводим в Int
         // Проверяем корректность ввода
@@ -35,40 +37,44 @@ class Program
         {
             Console.WriteLine("Билет НЕ является счастливым((");
         }
-    }
-}
 
-class Program1
-{
-    static void Main1()
-    {
-        // Ввод чисел
-        Console.Write("Введите числитель M: ");
-        int m = int.Parse(Console.ReadLine());
+        // задание №6
+        Console.Write("Введите количество бактерий (N): ");
+        int N = int.Parse(Console.ReadLine());
 
-        Console.Write("Введите знаменатель N: ");
-        int n = int.Parse(Console.ReadLine());
+        Console.Write("Введите количество капель антибиотика (Х): ");
+        int X = int.Parse(Console.ReadLine());
 
-        // Находим НОД
-        int gcd = FindGCD(m, n);
+        int bacteria = N; // текущее количество бактерий
+        int hours = 0; // счетчик часов
+        int killPower = X * 10; // начальная мощность антибиотика
 
-        // Сокращаем дробь
-        int numerator = m / gcd;
-        int denominator = n / gcd;
+        Console.WriteLine("\nДинамика изменения количества бактерий:");
 
-        // Выводим результат
-        Console.WriteLine($"Несократимая дробь: {numerator}/{denominator}");
+        // Цикл моделирования процесса
+        while (killPower > 0)
+        {
+            hours++;
+
+            // Бактерии удваиваются
+            bacteria = bacteria * 2;
+
+            // Антибиотик убивает бактерии
+            bacteria -= killPower;
+
+            // Мощность антибиотика уменьшается
+            killPower -= X;
+
+            if (bacteria <= 0)
+            {
+                bacteria = 0;
+                break;
+            }
+
+            Console.WriteLine($"Час {hours}: Бактерий = {bacteria}, Мощность антибиотика = {killPower}");
         }
 
-        // Метод для нахождения НОД (алгоритм Евклида)
-        static int FindGCD(int a, int b)
-        {
-        while (b != 0)
-        {
-        int temp = b;
-        b = a % b;
-        a = temp;
-        }
-        return a;
+        Console.WriteLine($"\nПроцесс завершен через {hours} часов");
+        Console.WriteLine($"Конечное количество бактерий: {bacteria}");
     }
 }

@@ -1,0 +1,15 @@
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\bin\Debug\net9.0\RT_2.exe
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\bin\Debug\net9.0\RT_2.deps.json
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\bin\Debug\net9.0\RT_2.runtimeconfig.json
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\bin\Debug\net9.0\RT_2.dll
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\bin\Debug\net9.0\RT_2.pdb
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.AssemblyInfoInputs.cache
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.AssemblyInfo.cs
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.csproj.CoreCompileInputs.cache
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.sourcelink.json
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.dll
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\refint\RT_2.dll
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.pdb
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\RT_2.genruntimeconfig.cache
+D:\программирование корпоративных систем\рт_2\RT_2\corp_RT_2\obj\Debug\net9.0\ref\RT_2.dll
